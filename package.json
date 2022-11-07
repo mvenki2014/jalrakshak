@@ -1,0 +1,35 @@
+{
+  "name": "jalrakshak_server",
+  "version": "1.0.0",
+  "description": "server for jalrakshak to retrieve data from sensors and store it in MYSQL",
+  "main": "jalarakshak_server.js",
+  "scripts": {
+    "start": "node --expose-gc jalrakshak_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stamaali/jalrakshak.git"
+  },
+  "author": "srikanth rao joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stamaali/jalrakshak/issues"
+  },
+  "homepage": "https://github.com/stamaali/jalrakshak#readme",
+  "devDependencies": {
+    "connect": "^3.7.0",
+    "cookie-session": "^2.0.0",
+    "mime": "^3.0.0",
+    "morgan": "^1.10.0",
+    "qs": "^6.10.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exec-mssql": "^1.0.1",
+    "execsql": "^0.0.3",
+    "mqtt": "^4.3.7",
+    "mysql": "^2.18.1",
+    "winston": "^3.6.0",
+    "winston-daily-rotate-file": "^4.6.1"
+  }
+}

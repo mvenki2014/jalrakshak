@@ -1,0 +1,31 @@
+{
+	"jalrakshak":{
+		"logDirs":{
+			"success": "./logs/success.log",
+			"error": "./logs/error.log"
+		},
+		"server":{
+			"port":8085
+		},
+		"mqtt":{
+			"server":{
+				"host":"192.168.9.65",
+				"port": 1883,
+				"clean": true,
+				"user":"jalmqttadmin",
+				"password":"SptGwd4$",
+				"connectTimeout":4000,
+				"reconnectPeriod": 1000
+			},
+			"topic":"WIOT/#",
+			"payloadKeys":["FLOW_RATE","TOTAL_LITERS","WATER_LEVEL","SV_STATE"]
+		},
+		"mysql":{ 
+			"host":"195.179.236.10",
+			"user":"u798378268_jalrakshak_u",
+			"password":"B4nFwF1!u",
+			"database":"u798378268_jalrakshak",
+			"insecureAuth":true
+		}
+	}
+}
